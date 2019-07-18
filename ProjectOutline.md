@@ -1,15 +1,15 @@
-Outline for PHP users group
+# Outline for PHP users group
 
 Intro stuff
-    Using Git
-    Installing PHP
+    - Using Git
+    - Installing PHP
 Front end
-    Form
-    Templating
+    - Form
+    - Templating
 Back end
-    Database connections
-    CRUD
+    - Database connections
+    - CRUD
 Advanced
-    Dependancy injection
-    OOP
-    Restful API
+    - Dependancy injection
+    - OOP
+    - Restful API
