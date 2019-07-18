@@ -15,7 +15,8 @@ How does it do it?
 Navigation
    - Login/out
    - Car status
-   - Car's in garage
+   - Cars in garage
    - Enter new job form
-   - 
+   - Modify jobs form
+   - Enter a new appointment form (customer)
  
