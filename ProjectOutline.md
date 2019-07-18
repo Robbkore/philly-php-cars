@@ -13,6 +13,6 @@ Back end
    - CRUD
 
 Advanced
-   - Dependancy injection
+   - Dependency injection
    - OOP
    - Restful API
