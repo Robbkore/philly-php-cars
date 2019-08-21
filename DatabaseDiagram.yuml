@@ -1,0 +1,19 @@
+// {type:class}
+// {direction:topDown}
+// {generate: true}
+
+//table definitions
+[appointments|PK:appointmentID;customerID;serviceType;appointmentDate;notes;vehicleID;status]
+[customers|PK:customerID;visitcount;email;phone]
+[vehicles|PK:vehicleID;customerID;make;model;year;vin;license;color;miles]
+[address|PK:addressID;customerid;address1;address2;city;state;zip]
+[notification_history|PK:notificationID;customerID;createdate;message;notificatonType]
+[service_history|PK:serviceHistID;vehicleID;]
+
+
+//relationships
+[appointments]<-* customerID *..[customers]
+[customers]..* vehicleID *->[vehicles]
+    [vehicles]..* vehicleID ->[service_history]
+[customers]..* customerID *->[notification_history]
+[customers]-* addressID 1..>[address]
