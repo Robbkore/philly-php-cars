@@ -10,7 +10,7 @@ Philly PHP Repository for teaching some fundamentals of application design
 ``php -S localhost:8000
 
 ### How are classes wired up? ###
-![yUML diagram](/ClassDiagram.svg)
+![yUML diagram](https://github.com/Robbkore/philly-php-cars/blob/master/ClassDiagram.svg)
 
 ### How are the database tables structured? ###
-![yUML diagram](/DatabaseDiagram.svg)
+![yUML diagram](https://github.com/Robbkore/philly-php-cars/blob/master/DatabaseDiagram.svg)
