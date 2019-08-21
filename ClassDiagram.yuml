@@ -35,12 +35,12 @@
 
 //Authentication
 [main]-.->[customerHandler]
-    [customerHandler]-.->[customerReader]
-    [customerHandler]-.->[customerWriter]
+    [customerHandler]<-.-[customerReader]
+    [customerHandler]<-.-[customerWriter]
 
 [main]-.->[appointmentHandler]
-    [appointmentHandler]-.->[appointmentWriter]
-    [appointmentHandler]-.->[appointmentReader]
+    [appointmentHandler]<-.-[appointmentWriter]
+    [appointmentHandler]<-.-[appointmentReader]
 
 [main]-.->[authenticaton]
 

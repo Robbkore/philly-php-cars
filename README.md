@@ -8,3 +8,9 @@ Philly PHP Repository for teaching some fundamentals of application design
 2.  Start the site using PHPs built in web server from the command line
 ``` cd o the /public directory
 ``php -S localhost:8000
+
+### How are classes wired up? ###
+![yUML diagram](/ClassDiagram.svg)
+
+### How are the database tables structured? ###
+![yUML diagram](/DatabaseDiagram.svg)
