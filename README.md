@@ -11,6 +11,8 @@ Philly PHP Repository for teaching some fundamentals of application design
 
 ### How are classes wired up? ###
 ![yUML diagram](./ClassDiagram.svg)
+<img src="./ClassDiagram.svg">
 
 ### How are the database tables structured? ###
 ![yUML diagram](./DatabaseDiagram.svg)
+<img src="./DatabaseDiagram.svg">
